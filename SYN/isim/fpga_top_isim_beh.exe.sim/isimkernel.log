@@ -1,0 +1,29 @@
+Command line:
+   fpga_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54399
+
+Thu Dec 04 11:57:55 2014
+
+
+ Elaboration Time: 0.062401 sec
+
+ Current Memory Usage: 670.671 Meg
+
+ Total Signals          : 906
+ Total Nets             : 1316
+ Total Signal Drivers   : 447
+ Total Blocks           : 114
+ Total Primitive Blocks : 76
+ Total Processes        : 462
+ Total Traceable Variables  : 1133
+ Total Scalar Nets and Variables : 75500
+Total Line Count : 378
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 670.671 Meg
+
+Thu Dec 04 11:58:21 2014
+

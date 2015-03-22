@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.49d on Sun Jun 15 23:28:46 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clknetwork_clkout1 = BEL "rst_sync_2" BEL "rst_sync_int_2" BEL
+        "rst_sync_int1_2" BEL "rst_sync_int2_2" BEL "counter_2_0" BEL
+        "counter_2_1" BEL "counter_2_2" BEL "counter_2_3" BEL "counter_2_4"
+        BEL "counter_2_5" BEL "counter_2_6" BEL "counter_2_7" BEL
+        "counter_2_8" BEL "counter_2_9" BEL "counter_2_10" BEL "counter_2_11"
+        BEL "counter_2_12" BEL "counter_2_13" BEL "counter_2_14" BEL
+        "counter_2_15" BEL "clknetwork/clkout2_buf";
+TIMEGRP clknetwork_clkout0 = BEL "rst_sync_1" BEL "rst_sync_int_1" BEL
+        "rst_sync_int1_1" BEL "rst_sync_int2_1" BEL "counter_1_0" BEL
+        "counter_1_1" BEL "counter_1_2" BEL "counter_1_3" BEL "counter_1_4"
+        BEL "counter_1_5" BEL "counter_1_6" BEL "counter_1_7" BEL
+        "counter_1_8" BEL "counter_1_9" BEL "counter_1_10" BEL "counter_1_11"
+        BEL "counter_1_12" BEL "counter_1_13" BEL "counter_1_14" BEL
+        "counter_1_15" BEL "clknetwork/clkout1_buf";
+PIN clknetwork/pll_base_inst/PLL_ADV_pins<2> = BEL
+        "clknetwork/pll_base_inst/PLL_ADV" PINNAME CLKIN1;
+TIMEGRP CLK_IN1 = BEL "clkin1_buf" PIN
+        "clknetwork/pll_base_inst/PLL_ADV_pins<2>";
+TS_CLK_IN1 = PERIOD TIMEGRP "CLK_IN1" 10 ns HIGH 50% INPUT_JITTER 0.1 ns;
+TS_clknetwork_clkout1 = PERIOD TIMEGRP "clknetwork_clkout1" TS_CLK_IN1 / 0.09
+        PHASE 55.5555556 ns HIGH 50% INPUT_JITTER 0.1 ns;
+TS_clknetwork_clkout0 = PERIOD TIMEGRP "clknetwork_clkout0" TS_CLK_IN1 / 0.09
+        HIGH 50% INPUT_JITTER 0.1 ns;
+SCHEMATIC END;
+

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/rkaria/Downloads/Verilog/ipcore_dir/dcm_TFT9_exdes.xst" -ofn "C:/Users/rkaria/Downloads/Verilog/ipcore_dir/dcm_TFT9_exdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dcm_TFT9/dcm_TFT9.ucf -p xc6slx16-csg324-3 dcm_TFT9_exdes.ngc dcm_TFT9_exdes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dcm_TFT9_exdes_map.ncd dcm_TFT9_exdes.ngd dcm_TFT9_exdes.pcf 
+par -w -intstyle ise -ol high -mt off dcm_TFT9_exdes_map.ncd dcm_TFT9_exdes.ncd dcm_TFT9_exdes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dcm_TFT9_exdes.twx dcm_TFT9_exdes.ncd -o dcm_TFT9_exdes.twr dcm_TFT9_exdes.pcf 
+bitgen -intstyle ise -f dcm_TFT9_exdes.ut dcm_TFT9_exdes.ncd 

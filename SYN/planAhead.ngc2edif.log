@@ -1,0 +1,17 @@
+Release 14.3 - ngc2edif P.40xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design fpga_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to fpga_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   Madd_GND_50_o_b[31]_add_9_OUT_Madd_Madd_cy[30 : 28] on block div_32u_32u is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_GND_50_o_b[31]_add_11_OUT_Madd_Madd_cy[30 : 28] on block div_32u_32u is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file fpga_top.edif ...
+ngc2edif: Total memory usage is 251384 kilobytes
+

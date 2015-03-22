@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fpga_top.xst" -ofn "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fpga_top.syr" 

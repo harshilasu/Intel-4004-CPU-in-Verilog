@@ -1,0 +1,20 @@
+Wed Aug 03 17:10:27 2011
+
+Upgraded div from Divider Generator 3.0 to Divider Generator 4.0
+
+WARNING: Migration from v3.0 also requires pin name changes. See the core datasheet for full instructions on migration.
+
+Renamed parameter ce to aclken
+Renamed parameter sclr to aresetn
+Removed parameter sclr_ce_priority
+Added parameter dividend_has_tlast with value false
+Added parameter divisor_has_tlast with value false
+Added parameter dividend_has_tuser with value false
+Added parameter divisor_has_tuser with value false
+Added parameter dividend_tuser_width with value 1
+Added parameter divisor_tuser_width with value 1
+Added parameter flowcontrol with value NonBlocking
+Added parameter outtlastbehv with value Null
+Added parameter optimizegoal with value Resources
+Added parameter outtready with value false
+

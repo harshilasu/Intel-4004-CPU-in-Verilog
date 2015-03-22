@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -i "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fa_isim_beh.exe" -prj "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fa_beh.prj" "work.fa" "work.glbl" 

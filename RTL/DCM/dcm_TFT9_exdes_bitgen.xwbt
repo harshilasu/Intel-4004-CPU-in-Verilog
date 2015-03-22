@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9_exdes.ncd
+OUTFILE=C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9_exdes.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\rkaria\Downloads\Verilog\ipcore_dir
+LICENSE=WebPack
+USER_INFO=210716683_0_0_932

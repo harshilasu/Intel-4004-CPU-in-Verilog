@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1836: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1842: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1848: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1849: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1850: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1851: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1852: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\floating_point_v5_0\shared\carry_chain.vhd" Line 270: Net &lt;<arg fmt="%s" index="1">carry[14]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\floating_point_v5_0\shared\carry_chain.vhd" Line 274: Net &lt;<arg fmt="%s" index="1">q_int[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\floating_point_v5_0\flt_pt_operator.vhd" Line 396: Net &lt;<arg fmt="%s" index="1">divide_by_zero_ud</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\floating_point_v5_0\flt_pt_operator.vhd" Line 400: Net &lt;<arg fmt="%s" index="1">exception_ud</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\estimator.vhd" Line 117: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000&quot;</arg> for <arg fmt="%s" index="2">pad</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_pipe_v2_0\xbip_pipe_v2_0_xst.vhd" Line 207: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_dsp48_wrapper_v2_0\xbip_dsp48a_wrapper_v2_0.vhd" Line 186: Net &lt;<arg fmt="%s" index="1">cecarryin_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_dsp48_wrapper_v2_0\xbip_dsp48a_wrapper_v2_0.vhd" Line 188: Net &lt;<arg fmt="%s" index="1">carryin_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_dsp48_wrapper_v2_0\xbip_dsp48a_wrapper_v2_0.vhd" Line 196: Net &lt;<arg fmt="%s" index="1">rstcarryin_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\mult_gen_pkg_v11_2.vhd" Line 2257: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3441: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">ce_opmode</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 264: Net &lt;<arg fmt="%s" index="1">d[0][0][17]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3436: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].cec</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3437: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].ced</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3439: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].cep</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3440: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].ce_carryin</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3443: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].cin_dsp48a</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\mult_gen_v11_2\dsp.vhd" Line 3438: Net &lt;<arg fmt="%s" index="1">use_DSP48a.appDSP48A[1].bppDSP48A[0].cem</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\prenormalizer.vhd" Line 123: Using initial value <arg fmt="%s" index="1">&quot;0&quot;</arg> for <arg fmt="%s" index="2">pad</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_dsp48_wrapper_v2_0\xbip_dsp48a_wrapper_v2_0.vhd" Line 184: Net &lt;<arg fmt="%s" index="1">cem_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\xbip_dsp48_wrapper_v2_0\xbip_dsp48a_wrapper_v2_0.vhd" Line 194: Net &lt;<arg fmt="%s" index="1">rstm_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 169: Net &lt;<arg fmt="%s" index="1">numer_full_i[4]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 193: Net &lt;<arg fmt="%s" index="1">numer[0][15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 195: Net &lt;<arg fmt="%s" index="1">denom[0][15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 203: Net &lt;<arg fmt="%s" index="1">mux_residue[0][16]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 207: Net &lt;<arg fmt="%s" index="1">pp_in[0][15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 222: Net &lt;<arg fmt="%s" index="1">c_bus[0][47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 224: Net &lt;<arg fmt="%s" index="1">shifted_residue[1][16]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 225: Net &lt;<arg fmt="%s" index="1">full_residue[0][47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 226: Net &lt;<arg fmt="%s" index="1">full_pp[0][47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 321: Net &lt;<arg fmt="%s" index="1">i_extra_digits.extra_digit_op[0][13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\iterative_unit.vhd" Line 329: Net &lt;<arg fmt="%s" index="1">i_extra_digits.extra_digits_cbus[47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\quotient_collector.vhd" Line 123: Net &lt;<arg fmt="%s" index="1">pad[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div_gen_v4_0\hrdiv\hrdiv_xst.vhd" Line 185: Net &lt;<arg fmt="%s" index="1">iter_denom[47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div.vhd</arg>&quot; line <arg fmt="%s" index="2">123</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_dout_tuser</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\rkaria\Downloads\Verilog\ipcore_dir\tmp\_cg\_dbg\div.vhd</arg>&quot; line <arg fmt="%s" index="2">123</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_dout_tlast</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">i_primitive</arg> in unit <arg fmt="%s" index="2">xbip_dsp48a_wrapper_v2_0_1</arg> of type <arg fmt="%s" index="3">DSP48A</arg> has been replaced by <arg fmt="%s" index="4">DSP48A1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">use_DSP48a.appDSP48A[0].bppDSP48A[0].iDSP48A</arg> in unit <arg fmt="%s" index="2">dsp</arg> of type <arg fmt="%s" index="3">DSP48A</arg> has been replaced by <arg fmt="%s" index="4">DSP48A1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">use_DSP48a.appDSP48A[1].bppDSP48A[0].iDSP48A</arg> in unit <arg fmt="%s" index="2">dsp</arg> of type <arg fmt="%s" index="3">DSP48A</arg> has been replaced by <arg fmt="%s" index="4">DSP48A1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">i_primitive</arg> in unit <arg fmt="%s" index="2">xbip_dsp48a_wrapper_v2_0_2</arg> of type <arg fmt="%s" index="3">DSP48A</arg> has been replaced by <arg fmt="%s" index="4">DSP48A1</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;15&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_pp_digit.i_extra_pp_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[1].i_denommux_reg/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[1].i_denommux_reg/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_denommux_reg/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_denommux_reg/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_denommux_reg/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_denommux_reg/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;47&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;47&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;46&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;46&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;45&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;45&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;44&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;44&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;43&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;43&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;42&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;42&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;41&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;41&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;40&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;40&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;39&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;39&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;38&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;38&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;37&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;37&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;36&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;36&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;35&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;35&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;34&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;34&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;33&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;33&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;32&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;32&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;31&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;31&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;30&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;30&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;29&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;29&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;28&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;28&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;27&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;27&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;26&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;26&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;25&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;25&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;24&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;24&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;23&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;23&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;22&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;22&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;21&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;21&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;20&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;20&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;19&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;19&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;18&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;18&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;15&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">U0/i_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_extra_digits.i_extra_digits[1].top_digit.i_extra_digit_reg/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_iterative_unit/i_splice[0].i_residue_reg/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

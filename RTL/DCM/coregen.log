@@ -1,0 +1,13 @@
+WARNING:coreutil:751 - Cannot add duplicate entry 'xilinx.com:ip:clk_wiz:3.2' to
+   versioned element map.
+WARNING:coreutil:948 - Unable to load element 'xilinx.com:ip:clk_wiz:3.2' from
+   repository.
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - The chosen IP does not support an SYM schematic symbol.
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'dcm_TFT9'.

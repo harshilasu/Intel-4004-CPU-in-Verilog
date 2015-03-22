@@ -1,0 +1,1 @@
+vhdtdtfi -prj CPU -o C:/Users/Kyle/Desktop/CPU/memory_interface.tfi -module memory_interface -template C:/Xilinx/14.3/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work RTL/MIF/memory_interface.vhd 

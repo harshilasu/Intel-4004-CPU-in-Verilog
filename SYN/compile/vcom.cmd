@@ -1,0 +1,1 @@
+-b -d C:/Users/Kyle/Desktop/CPU/SYN/compile -s C:/Users/Kyle/Desktop/CPU/SYN/library.cfg -explicit -93 ../RTL/MIF/memory_interface.vhd

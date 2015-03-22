@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU -o C:/Users/Kyle/Desktop/CPU/SYN/SequentialLogic.vhi -lib work C:/Users/Kyle/Desktop/CPU/RTL/CPU//SequentialLogic.v -module SequentialLogic -template C:/Xilinx/14.3/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

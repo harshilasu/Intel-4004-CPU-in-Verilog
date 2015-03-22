@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -i C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/ -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fa_isim_beh.exe -prj C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fa_beh.prj work.fa work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/../RTL/CPU/ha.v" into library work
+Analyzing Verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/../RTL/CPU/fa.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ha
+Compiling module fa
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/SYN/fa_isim_beh.exe
+Fuse Memory Usage: 28988 KB
+Fuse CPU Usage: 358 ms

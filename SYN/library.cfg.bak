@@ -1,0 +1,11 @@
+$INCLUDE = "$VSIMSALIBRARYCFG"
+secureip = "../LIBS/secureip/secureip.lib" 1417282680523
+unisim = "../LIBS/unisim/unisim.lib" 1417282680718
+unimacro = "../LIBS/unimacro/unimacro.lib" 1417282680639
+unisims_ver = "../LIBS/unisims_ver/unisims_ver.lib" 1417282680758
+unimacro_ver = "../LIBS/unimacro_ver/unimacro_ver.lib" 1417282680677
+simprim = "../LIBS/simprim/simprim.lib" 1417282680561
+simprims_ver = "../LIBS/simprims_ver/simprims_ver.lib" 1417282680600
+xilinxcorelib = "../LIBS/xilinxcorelib/xilinxcorelib.lib" 1417282680796
+xilinxcorelib_ver = "../LIBS/xilinxcorelib_ver/xilinxcorelib_ver.lib" 1417282680835
+work = "./work/work.lib" 1417368740092

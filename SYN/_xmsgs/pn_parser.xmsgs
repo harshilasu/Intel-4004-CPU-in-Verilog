@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ALU.v</arg>&quot; Line <arg fmt="%d" index="2">32</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ALU.v&quot; line 32
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ControlLogic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ControlLogic.v</arg>&quot; Line <arg fmt="%d" index="2">13</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ControlLogic.v&quot; line 13
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/IntructionDecoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/IntructionDecoder.v</arg>&quot; Line <arg fmt="%d" index="2">38</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/IntructionDecoder.v&quot; line 38
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/PCSel.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/PCSel.v</arg>&quot; Line <arg fmt="%d" index="2">3</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/PCSel.v&quot; line 3
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/SequentialLogic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/SequentialLogic.v</arg>&quot; Line <arg fmt="%d" index="2">24</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/SequentialLogic.v&quot; line 24
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/alu_add.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/alu_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/alu_mul.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/dataMem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/dataMem.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/dataMem.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/fa.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/ha.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/instMem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/instMem.v</arg>&quot; Line <arg fmt="%d" index="2">24</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh&apos; in file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/instMem.v&quot; line 24
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/mips_sc_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/CPU/registerFile.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/MIF/memory_interface.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/SCU/scu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/SEG/Seven_Segment_Display.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/RTL/fpga_top.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

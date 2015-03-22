@@ -1,0 +1,507 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: dcm_TFT9_exdes.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dcm_TFT9_exdes.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dcm_TFT9_exdes"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : dcm_TFT9_exdes
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9.vhd" into library work
+Parsing entity <dcm_TFT9>.
+Parsing architecture <xilinx> of entity <dcm_tft9>.
+Parsing VHDL file "C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9\example_design\dcm_TFT9_exdes.vhd" into library work
+Parsing entity <dcm_TFT9_exdes>.
+Parsing architecture <xilinx> of entity <dcm_tft9_exdes>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <dcm_TFT9_exdes> (architecture <xilinx>) with generics from library <work>.
+
+Elaborating entity <dcm_TFT9> (architecture <xilinx>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <dcm_TFT9_exdes>.
+    Related source file is "C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9\example_design\dcm_TFT9_exdes.vhd".
+    Found 16-bit register for signal <counter<1>>.
+    Found 16-bit register for signal <counter<2>>.
+    Found 1-bit register for signal <rst_sync_int_1>.
+    Found 1-bit register for signal <rst_sync_int1_1>.
+    Found 1-bit register for signal <rst_sync_int2_1>.
+    Found 1-bit register for signal <rst_sync_2>.
+    Found 1-bit register for signal <rst_sync_int_2>.
+    Found 1-bit register for signal <rst_sync_int1_2>.
+    Found 1-bit register for signal <rst_sync_int2_2>.
+    Found 1-bit register for signal <rst_sync_1>.
+    Found 16-bit adder for signal <counter[1][15]_GND_7_o_add_0_OUT> created at line 180.
+    Found 16-bit adder for signal <counter[2][15]_GND_7_o_add_2_OUT> created at line 180.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  40 D-type flip-flop(s).
+Unit <dcm_TFT9_exdes> synthesized.
+
+Synthesizing Unit <dcm_TFT9>.
+    Related source file is "C:\Users\rkaria\Downloads\Verilog\ipcore_dir\dcm_TFT9.vhd".
+    Summary:
+	no macro.
+Unit <dcm_TFT9> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 2
+# Registers                                            : 10
+ 1-bit register                                        : 8
+ 16-bit register                                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <dcm_TFT9_exdes>.
+The following registers are absorbed into counter <counter_1>: 1 register on signal <counter_1>.
+The following registers are absorbed into counter <counter_2>: 1 register on signal <counter_2>.
+Unit <dcm_TFT9_exdes> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 16-bit up counter                                     : 2
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance clknetwork/pll_base_inst in unit clknetwork/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <dcm_TFT9_exdes> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dcm_TFT9_exdes, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <dcm_TFT9_exdes> :
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <rst_sync_int2_1> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <rst_sync_int2_2> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <dcm_TFT9_exdes> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : dcm_TFT9_exdes.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 97
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 30
+#      LUT3                        : 1
+#      MUXCY                       : 30
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 40
+#      FDC                         : 32
+#      FDP                         : 8
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 6
+#      IBUF                        : 2
+#      IBUFG                       : 1
+#      OBUF                        : 3
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              40  out of  18224     0%  
+ Number of Slice LUTs:                   33  out of   9112     0%  
+    Number used as Logic:                33  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     41
+   Number with an unused Flip Flop:       1  out of     41     2%  
+   Number with an unused LUT:             8  out of     41    19%  
+   Number of fully used LUT-FF pairs:    32  out of     41    78%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    232     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clknetwork/pll_base_inst/CLKOUT1   | BUFG                   | 20    |
+clknetwork/pll_base_inst/CLKOUT0   | BUFG                   | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.952ns (Maximum Frequency: 512.334MHz)
+   Minimum input arrival time before clock: 3.340ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clknetwork/pll_base_inst/CLKOUT0'
+  Clock period: 1.952ns (frequency: 512.334MHz)
+  Total number of paths / destination ports: 155 / 35
+-------------------------------------------------------------------------
+Delay:               1.952ns (Levels of Logic = 17)
+  Source:            counter_1_0 (FF)
+  Destination:       counter_1_15 (FF)
+  Source Clock:      clknetwork/pll_base_inst/CLKOUT0 rising
+  Destination Clock: clknetwork/pll_base_inst/CLKOUT0 rising
+
+  Data Path: counter_1_0 to counter_1_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  counter_1_0 (counter_1_0)
+     INV:I->O              1   0.206   0.000  Mcount_counter_1_lut<0>_INV_0 (Mcount_counter_1_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcount_counter_1_cy<0> (Mcount_counter_1_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<1> (Mcount_counter_1_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<2> (Mcount_counter_1_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<3> (Mcount_counter_1_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<4> (Mcount_counter_1_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<5> (Mcount_counter_1_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<6> (Mcount_counter_1_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<7> (Mcount_counter_1_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<8> (Mcount_counter_1_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<9> (Mcount_counter_1_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<10> (Mcount_counter_1_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<11> (Mcount_counter_1_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<12> (Mcount_counter_1_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_1_cy<13> (Mcount_counter_1_cy<13>)
+     MUXCY:CI->O           0   0.019   0.000  Mcount_counter_1_cy<14> (Mcount_counter_1_cy<14>)
+     XORCY:CI->O           1   0.180   0.000  Mcount_counter_1_xor<15> (Result<15>)
+     FDC:D                     0.102          counter_1_15
+    ----------------------------------------
+    Total                      1.952ns (1.373ns logic, 0.579ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clknetwork/pll_base_inst/CLKOUT1'
+  Clock period: 1.952ns (frequency: 512.334MHz)
+  Total number of paths / destination ports: 155 / 35
+-------------------------------------------------------------------------
+Delay:               1.952ns (Levels of Logic = 17)
+  Source:            counter_2_0 (FF)
+  Destination:       counter_2_15 (FF)
+  Source Clock:      clknetwork/pll_base_inst/CLKOUT1 rising
+  Destination Clock: clknetwork/pll_base_inst/CLKOUT1 rising
+
+  Data Path: counter_2_0 to counter_2_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  counter_2_0 (counter_2_0)
+     INV:I->O              1   0.206   0.000  Mcount_counter_2_lut<0>_INV_0 (Mcount_counter_2_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcount_counter_2_cy<0> (Mcount_counter_2_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<1> (Mcount_counter_2_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<2> (Mcount_counter_2_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<3> (Mcount_counter_2_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<4> (Mcount_counter_2_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<5> (Mcount_counter_2_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<6> (Mcount_counter_2_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<7> (Mcount_counter_2_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<8> (Mcount_counter_2_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<9> (Mcount_counter_2_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<10> (Mcount_counter_2_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<11> (Mcount_counter_2_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<12> (Mcount_counter_2_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_counter_2_cy<13> (Mcount_counter_2_cy<13>)
+     MUXCY:CI->O           0   0.019   0.000  Mcount_counter_2_cy<14> (Mcount_counter_2_cy<14>)
+     XORCY:CI->O           1   0.180   0.000  Mcount_counter_2_xor<15> (Result<15>1)
+     FDC:D                     0.102          counter_2_15
+    ----------------------------------------
+    Total                      1.952ns (1.373ns logic, 0.579ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clknetwork/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Offset:              3.340ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       rst_sync_2 (FF)
+  Destination Clock: clknetwork/pll_base_inst/CLKOUT1 rising
+
+  Data Path: RESET to rst_sync_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.684  RESET_IBUF (RESET_IBUF)
+     LUT3:I1->O            8   0.203   0.802  reset_int1 (reset_int)
+     FDP:PRE                   0.430          rst_sync_2
+    ----------------------------------------
+    Total                      3.340ns (1.855ns logic, 1.485ns route)
+                                       (55.5% logic, 44.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clknetwork/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Offset:              3.340ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       rst_sync_1 (FF)
+  Destination Clock: clknetwork/pll_base_inst/CLKOUT0 rising
+
+  Data Path: RESET to rst_sync_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.684  RESET_IBUF (RESET_IBUF)
+     LUT3:I1->O            8   0.203   0.802  reset_int1 (reset_int)
+     FDP:PRE                   0.430          rst_sync_1
+    ----------------------------------------
+    Total                      3.340ns (1.855ns logic, 1.485ns route)
+                                       (55.5% logic, 44.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clknetwork/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            counter_2_15 (FF)
+  Destination:       COUNT<2> (PAD)
+  Source Clock:      clknetwork/pll_base_inst/CLKOUT1 rising
+
+  Data Path: counter_2_15 to COUNT<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.616  counter_2_15 (counter_2_15)
+     OBUF:I->O                 2.571          COUNT_2_OBUF (COUNT<2>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clknetwork/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            counter_1_15 (FF)
+  Destination:       COUNT<1> (PAD)
+  Source Clock:      clknetwork/pll_base_inst/CLKOUT0 rising
+
+  Data Path: counter_1_15 to COUNT<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.616  counter_1_15 (counter_1_15)
+     OBUF:I->O                 2.571          COUNT_1_OBUF (COUNT<1>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clknetwork/pll_base_inst/CLKOUT0
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+clknetwork/pll_base_inst/CLKOUT0|    1.952|         |         |         |
+--------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clknetwork/pll_base_inst/CLKOUT1
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+clknetwork/pll_base_inst/CLKOUT1|    1.952|         |         |         |
+--------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.11 secs
+ 
+--> 
+
+Total memory usage is 270604 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

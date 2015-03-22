@@ -1,0 +1,1 @@
+ -o C:/Users/Kyle/Desktop/CPU/SYN/compile -lc C:/Users/Kyle/Desktop/CPU/SYN/library.cfg -fl C:/Users/Kyle/Desktop/CPU/SYN/library.cfg -pli C:/Aldec/Riviera-PRO-2012.10-x64/bin/systf.dll -incdir ../INC/. C:/Xilinx/14.3/ISE_DS/ISE//verilog/src/glbl.v

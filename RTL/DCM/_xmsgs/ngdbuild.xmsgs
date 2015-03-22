@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK_IN1</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK_IN1</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clknetwork_clkout1 = PERIOD &quot;clknetwork_clkout1&quot; TS_CLK_IN1 / 0.09 PHASE 55.555555556 ns HIGH 50% INPUT_JITTER 100 ps&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK_IN1</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK_IN1</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clknetwork_clkout0 = PERIOD &quot;clknetwork_clkout0&quot; TS_CLK_IN1 / 0.09 HIGH 50% INPUT_JITTER 100 ps&gt;</arg>
+</msg>
+
+</messages>
+

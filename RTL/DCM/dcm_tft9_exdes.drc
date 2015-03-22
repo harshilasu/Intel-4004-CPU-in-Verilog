@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sun Jun 15 23:29:06 2014
+
+drc -z dcm_TFT9_exdes.ncd dcm_TFT9_exdes.pcf
+
+DRC detected 0 errors and 0 warnings.

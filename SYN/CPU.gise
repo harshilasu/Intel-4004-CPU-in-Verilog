@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CPU.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CPU_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Top_Level_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fa_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fa_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="fa_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="fpga_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="fpga_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="fpga_top.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fpga_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="fpga_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="fpga_top.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fpga_top_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1417722595" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1417722595">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722595" xil_pn:in_ck="1688435011446790469" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1417722595">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../INC/common.vh"/>
+      <outfile xil_pn:name="../RTL/CPU/ALU.v"/>
+      <outfile xil_pn:name="../RTL/CPU/ControlLogic.v"/>
+      <outfile xil_pn:name="../RTL/CPU/IntructionDecoder.v"/>
+      <outfile xil_pn:name="../RTL/CPU/PCSel.v"/>
+      <outfile xil_pn:name="../RTL/CPU/SequentialLogic.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_add.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_div.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_mul.v"/>
+      <outfile xil_pn:name="../RTL/CPU/dataMem.v"/>
+      <outfile xil_pn:name="../RTL/CPU/fa.v"/>
+      <outfile xil_pn:name="../RTL/CPU/ha.v"/>
+      <outfile xil_pn:name="../RTL/CPU/instMem.v"/>
+      <outfile xil_pn:name="../RTL/CPU/mips_sc_top.v"/>
+      <outfile xil_pn:name="../RTL/CPU/registerFile.v"/>
+      <outfile xil_pn:name="../RTL/MIF/memory_interface.vhd"/>
+      <outfile xil_pn:name="../RTL/SCU/scu.v"/>
+      <outfile xil_pn:name="../RTL/SEG/Seven_Segment_Display.v"/>
+      <outfile xil_pn:name="../RTL/fpga_top.v"/>
+      <outfile xil_pn:name="../TB/CPU_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1417723113" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2490814461518240812" xil_pn:start_ts="1417723113">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417723113" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7558845227501297746" xil_pn:start_ts="1417723113">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722598" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6856794551147269322" xil_pn:start_ts="1417722598">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722598" xil_pn:in_ck="1688435011446790469" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1417722598">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../INC/common.vh"/>
+      <outfile xil_pn:name="../RTL/CPU/ALU.v"/>
+      <outfile xil_pn:name="../RTL/CPU/ControlLogic.v"/>
+      <outfile xil_pn:name="../RTL/CPU/IntructionDecoder.v"/>
+      <outfile xil_pn:name="../RTL/CPU/PCSel.v"/>
+      <outfile xil_pn:name="../RTL/CPU/SequentialLogic.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_add.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_div.v"/>
+      <outfile xil_pn:name="../RTL/CPU/alu_mul.v"/>
+      <outfile xil_pn:name="../RTL/CPU/dataMem.v"/>
+      <outfile xil_pn:name="../RTL/CPU/fa.v"/>
+      <outfile xil_pn:name="../RTL/CPU/ha.v"/>
+      <outfile xil_pn:name="../RTL/CPU/instMem.v"/>
+      <outfile xil_pn:name="../RTL/CPU/mips_sc_top.v"/>
+      <outfile xil_pn:name="../RTL/CPU/registerFile.v"/>
+      <outfile xil_pn:name="../RTL/MIF/memory_interface.vhd"/>
+      <outfile xil_pn:name="../RTL/SCU/scu.v"/>
+      <outfile xil_pn:name="../RTL/SEG/Seven_Segment_Display.v"/>
+      <outfile xil_pn:name="../RTL/fpga_top.v"/>
+      <outfile xil_pn:name="../TB/CPU_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1417723115" xil_pn:in_ck="1688435011446790469" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4916188081583348182" xil_pn:start_ts="1417723113">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fa_beh.prj"/>
+      <outfile xil_pn:name="fa_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1417723115" xil_pn:in_ck="-5634716588418344959" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-83603008574326763" xil_pn:start_ts="1417723115">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fa_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4795433299146980709" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6856794551147269322" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="544783486920037341" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722673" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-808377445251697132" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1417722971" xil_pn:in_ck="-8027172385494859116" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-7610347619911676749" xil_pn:start_ts="1417722673">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="fpga_top.lso"/>
+      <outfile xil_pn:name="fpga_top.ngr"/>
+      <outfile xil_pn:name="fpga_top.prj"/>
+      <outfile xil_pn:name="fpga_top.syr"/>
+      <outfile xil_pn:name="fpga_top.xst"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

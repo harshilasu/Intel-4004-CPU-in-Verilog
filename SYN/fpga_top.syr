@@ -1,0 +1,1702 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: fpga_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "fpga_top.prj"
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : { "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC" }
+
+---- Target Parameters
+Output File Name                   : "fpga_top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : fpga_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 2
+Power Reduction                    : NO
+Keep Hierarchy                     : Soft
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : YES
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ha.v" into library work
+Parsing module <ha>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\fa.v" into library work
+Parsing module <fa>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_mul.v" into library work
+Parsing module <alu_mul>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_div.v" into library work
+Parsing module <alu_div>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_add.v" into library work
+Parsing module <alu_add>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\registerFile.v" into library work
+Parsing module <registerFile>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\PCSel.v" into library work
+Parsing module <PCSel>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 3.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\IntructionDecoder.v" into library work
+Parsing module <InstructionDecoder>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 38.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\instMem.v" into library work
+Parsing module <instMem>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 24.
+INFO:HDLCompiler:693 - "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" Line 25. parameter declaration becomes local in instMem with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" Line 93. parameter declaration becomes local in instMem with formal parameter declaration list
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\dataMem.v" into library work
+Parsing module <dataMem>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 27.
+INFO:HDLCompiler:693 - "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" Line 25. parameter declaration becomes local in dataMem with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" Line 93. parameter declaration becomes local in dataMem with formal parameter declaration list
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ALU.v" into library work
+Parsing module <ALU>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 32.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\SequentialLogic.v" into library work
+Parsing module <SequentialLogic>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 24.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ControlLogic.v" into library work
+Parsing module <ControlLogic>.
+Parsing verilog file "C:/Users/HpGaming/Dropbox/CSE 320/CSE320 LAB FINAL/CPU/INC/common.vh" included at line 13.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" into library work
+Parsing module <Seven_Segment_Display>.
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 16. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 17. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 19. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 20. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 21. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 22. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 23. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 24. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 25. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 26. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 27. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 28. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 29. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 30. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 31. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 32. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 33. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 34. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v" Line 35. parameter declaration becomes local in Seven_Segment_Display with formal parameter declaration list
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SCU\scu.v" into library work
+Parsing module <scu>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\mips_sc_top.v" into library work
+Parsing module <mips_sc_top>.
+Analyzing Verilog file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\fpga_top.v" into library work
+Parsing module <fpga_top>.
+Parsing VHDL file "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\MIF\memory_interface.vhd" into library work
+Parsing entity <memory_interface>.
+Parsing architecture <Behavioral1> of entity <memory_interface>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <fpga_top>.
+
+Elaborating module <scu>.
+
+Elaborating module <mips_sc_top>.
+
+Elaborating module <SequentialLogic>.
+
+Elaborating module <dataMem(RAM_DEPTH=1024,RAM_WIDTH=32)>.
+
+Elaborating module <instMem(DATA_DEPTH=1024,ADDR_WIDTH=10,DATA_WIDTH=32)>.
+
+Elaborating module <registerFile(REGISTER_DEPTH=32,ADDR_WIDTH=5,DATA_WIDTH=32)>.
+
+Elaborating module <ControlLogic>.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:413 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ALU.v" Line 260: Result of 64-bit expression is truncated to fit in 33-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ALU.v" Line 269: Result of 64-bit expression is truncated to fit in 33-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ALU.v" Line 52: Assignment to nc ignored, since the identifier is never used
+
+Elaborating module <alu_add(WORD_WIDTH=32)>.
+
+Elaborating module <fa>.
+
+Elaborating module <ha>.
+
+Elaborating module <alu_mul(WORD_WIDTH=32)>.
+
+Elaborating module <alu_div(WORD_WIDTH=32,BLOCK_WIDTH=4)>.
+WARNING:HDLCompiler:1127 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ControlLogic.v" Line 51: Assignment to of ignored, since the identifier is never used
+
+Elaborating module <InstructionDecoder>.
+
+Elaborating module <PCSel>.
+WARNING:HDLCompiler:1127 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\PCSel.v" Line 27: Assignment to ov ignored, since the identifier is never used
+Going to vhdl side to elaborate module memory_interface
+
+Elaborating entity <memory_interface> (architecture <Behavioral1>) with generics from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\MIF\memory_interface.vhd" Line 228. Case statement is complete. others clause is never selected
+Back to verilog to continue elaboration
+
+Elaborating module <Seven_Segment_Display(CLOCKFREQ=100,DIGITS=4)>.
+WARNING:HDLCompiler:634 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\fpga_top.v" Line 34: Net <memoryReadData[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\fpga_top.v" Line 37: Net <cen[1]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fpga_top>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\fpga_top.v".
+WARNING:Xst:647 - Input <sw_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <memoryReadData<31:16>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <cen> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <fpga_top> synthesized.
+
+Synthesizing Unit <scu>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SCU\scu.v".
+        RST_SYNC_NUM = 100
+        RST_DBNC = 10
+        RST_SYNC_NUM_LENGTH = 7
+        VDD = 1'b1
+        GROUND = 1'b0
+    Found 1-bit register for signal <RstDbncQ<2>>.
+    Found 1-bit register for signal <RstDbncQ<3>>.
+    Found 1-bit register for signal <RstDbncQ<4>>.
+    Found 1-bit register for signal <RstDbncQ<5>>.
+    Found 1-bit register for signal <RstDbncQ<6>>.
+    Found 1-bit register for signal <RstDbncQ<7>>.
+    Found 1-bit register for signal <RstDbncQ<8>>.
+    Found 1-bit register for signal <RstDbncQ<9>>.
+    Found 1-bit register for signal <RstDbncQ<1>>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <scu> synthesized.
+
+Synthesizing Unit <mips_sc_top>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\mips_sc_top.v".
+WARNING:Xst:647 - Input <memoryReadData_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mips_sc_top> synthesized.
+
+Synthesizing Unit <SequentialLogic>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\SequentialLogic.v".
+        R00 = 5'b00000
+        R01 = 5'b00001
+        R02 = 5'b00010
+        R03 = 5'b00011
+        R04 = 5'b00100
+        R05 = 5'b00101
+        R06 = 5'b00110
+        R07 = 5'b00111
+        R08 = 5'b01000
+        R09 = 5'b01001
+        R10 = 5'b01010
+        R11 = 5'b01011
+        R12 = 5'b01100
+        R13 = 5'b01101
+        R14 = 5'b01110
+        R15 = 5'b01111
+        R16 = 5'b10000
+        R17 = 5'b10001
+        R18 = 5'b10010
+        R19 = 5'b10011
+        R20 = 5'b10100
+        R21 = 5'b10101
+        R22 = 5'b10110
+        R23 = 5'b10111
+        R24 = 5'b11000
+        R25 = 5'b11001
+        R26 = 5'b11010
+        R27 = 5'b11011
+        R28 = 5'b11100
+        R29 = 5'b11101
+        R30 = 5'b11110
+        R31 = 5'b11111
+        ADD_OP = 6'b000000
+        ADD_FUNC = 6'b100000
+        ADDI_OP = 6'b001000
+        ADDIU_OP = 6'b001001
+        ADDU_OP = 6'b000000
+        ADDU_FUNC = 6'b100001
+        AND_OP = 6'b000000
+        AND_FUNC = 6'b100100
+        ANDI_OP = 6'b001100
+        JAL_OP = 6'b000011
+        BEQ_OP = 6'b000100
+        BGEZ_OP = 6'b000001
+        BGEZ_FUNC = 6'b000001
+        BGEZAL_OP = 6'b000001
+        BGEZAL_FUNC = 6'b010001
+        BGTZ_OP = 6'b000111
+        BGTZ_FUNC = 6'b000000
+        BLEZ_OP = 6'b000110
+        BLEZ_FUNC = 6'b000000
+        BLTZ_OP = 6'b000001
+        BLTZ_FUNC = 6'b000000
+        BLTZAL_OP = 6'b000001
+        BLTZAL_FUNC = 6'b010000
+        BNE_OP = 6'b000101
+        BREAK_OP = 6'b000000
+        BREAK_FUNC = 6'b001011
+        CFC0_OP = 6'b010000
+        CFC1_OP = 6'b010001
+        CFC2_OP = 6'b010010
+        CFC3_OP = 6'b010011
+        COP0_OP = 6'b010000
+        COP1_OP = 6'b010001
+        COP2_OP = 6'b010010
+        COP3_OP = 6'b010011
+        CTC0_OP = 6'b010000
+        CTC1_OP = 6'b010001
+        CTC2_OP = 6'b010010
+        CTC3_OP = 6'b010011
+        DIV_OP = 6'b000000
+        DIV_FUNC = 6'b011010
+        DIVU_OP = 6'b000000
+        DIVU_FUNC = 6'b011011
+        J_OP = 6'b000010
+        LB_OP = 6'b100000
+        LH_OP = 6'b100001
+        LL_OP = 6'b110000
+        LWL_OP = 6'b100010
+        LW_OP = 6'b100011
+        LBU_OP = 6'b100100
+        LHU_OP = 6'b100101
+        LUI_OP = 6'b001111
+        LWR_OP = 6'b100110
+        MADD_OP = 6'b011100
+        MADD_FUNC = 6'b000000
+        MADDU_OP = 6'b011100
+        MADDU_FUNC = 6'b000001
+        MUL_OP = 6'b011100
+        MUL_FUNC = 6'b000010
+        MSUB_OP = 6'b011100
+        MSUB_FUNC = 6'b000101
+        MTC0_OP = 6'b010000
+        MTC0_FUNC = 6'b000100
+        MTC1_OP = 6'b010001
+        MTC1_FUNC = 6'b000100
+        MTC2_OP = 6'b010010
+        MTC2_FUNC = 6'b000100
+        MTC3_OP = 6'b010011
+        MTC3_FUNC = 6'b000100
+        MTHI_OP = 6'b000000
+        MTLO_OP = 6'b000000
+        MTLO_FUNC = 6'b010011
+        MULT_OP = 6'b000000
+        MULT_FUNC = 6'b011000
+        MULTU_OP = 6'b000000
+        MULTU_FUNC = 6'b011001
+        NOR_OP = 6'b000000
+        NOR_FUNC = 6'b100111
+        OR_OP = 6'b000000
+        OR_FUNC = 6'b100101
+        ORI_OP = 6'b001101
+        SB_OP = 6'b101000
+        SH_OP = 6'b101001
+        SLL_OP = 6'b000000
+        SLL_FUNC = 6'b000000
+        SLLV_OP = 6'b000000
+        SLLV_FUNC = 6'b000100
+        SLT_OP = 6'b000000
+        SLT_FUNC = 6'b101010
+        SLTI_OP = 6'b001010
+        SLTIU_OP = 6'b001011
+        SLTU_OP = 6'b000000
+        SLTU_FUNC = 6'b101011
+        SRA_OP = 6'b000000
+        SRA_FUNC = 6'b000011
+        SRAV_OP = 6'b000000
+        SRAV_FUNC = 6'b000111
+        SRL_OP = 6'b000000
+        SRL_FUNC = 6'b000010
+        SRLV_OP = 6'b000000
+        SRLV_FUNC = 6'b000110
+        SUB_OP = 6'b000000
+        SUB_FUNC = 6'b100010
+        SUBU_OP = 6'b000000
+        SUBU_FUNC = 6'b100011
+        SW_OP = 6'b101011
+        SWC0_OP = 6'b111000
+        SWC1_OP = 6'b111001
+        SWC2_OP = 6'b111010
+        SWC3_OP = 6'b111011
+        SWL_OP = 6'b101010
+        SWR_OP = 6'b101110
+        SYSCALL_OP = 6'b000000
+        SYSCALL_FUNC = 6'b001100
+        XOR_OP = 6'b000000
+        XOR_FUNC = 6'b100110
+        XORI_OP = 6'b001110
+    Found 32-bit register for signal <programCounter_o>.
+    Found 32-bit 4-to-1 multiplexer for signal <registerWriteData> created at line 50.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <SequentialLogic> synthesized.
+
+Synthesizing Unit <dataMem>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\dataMem.v".
+        RAM_DEPTH = 1024
+        RAM_WIDTH = 32
+WARNING:Xst:647 - Input <read_addr<31:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32768-bit register for signal <n2061[32767:0]>.
+    Found 32-bit 1024-to-1 multiplexer for signal <read_data> created at line 50.
+    Found 32-bit comparator lessequal for signal <n0004> created at line 57
+    Summary:
+	inferred 32768 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred 1025 Multiplexer(s).
+Unit <dataMem> synthesized.
+
+Synthesizing Unit <instMem>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\instMem.v".
+        DATA_DEPTH = 1024
+        ADDR_WIDTH = 10
+        DATA_WIDTH = 32
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 64x11-bit Read Only RAM for signal <_n2863>
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <read_data<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  27 Latch(s).
+	inferred  33 Multiplexer(s).
+Unit <instMem> synthesized.
+
+Synthesizing Unit <registerFile>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\registerFile.v".
+        REGISTER_DEPTH = 32
+        ADDR_WIDTH = 5
+        DATA_WIDTH = 32
+    Found 1024-bit register for signal <n0048[1023:0]>.
+    Found 32-bit 32-to-1 multiplexer for signal <rd_data1> created at line 48.
+    Found 32-bit 32-to-1 multiplexer for signal <rd_data2> created at line 49.
+    Summary:
+	inferred 1024 D-type flip-flop(s).
+	inferred  34 Multiplexer(s).
+Unit <registerFile> synthesized.
+
+Synthesizing Unit <ControlLogic>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ControlLogic.v".
+        R00 = 5'b00000
+        R01 = 5'b00001
+        R02 = 5'b00010
+        R03 = 5'b00011
+        R04 = 5'b00100
+        R05 = 5'b00101
+        R06 = 5'b00110
+        R07 = 5'b00111
+        R08 = 5'b01000
+        R09 = 5'b01001
+        R10 = 5'b01010
+        R11 = 5'b01011
+        R12 = 5'b01100
+        R13 = 5'b01101
+        R14 = 5'b01110
+        R15 = 5'b01111
+        R16 = 5'b10000
+        R17 = 5'b10001
+        R18 = 5'b10010
+        R19 = 5'b10011
+        R20 = 5'b10100
+        R21 = 5'b10101
+        R22 = 5'b10110
+        R23 = 5'b10111
+        R24 = 5'b11000
+        R25 = 5'b11001
+        R26 = 5'b11010
+        R27 = 5'b11011
+        R28 = 5'b11100
+        R29 = 5'b11101
+        R30 = 5'b11110
+        R31 = 5'b11111
+        ADD_OP = 6'b000000
+        ADD_FUNC = 6'b100000
+        ADDI_OP = 6'b001000
+        ADDIU_OP = 6'b001001
+        ADDU_OP = 6'b000000
+        ADDU_FUNC = 6'b100001
+        AND_OP = 6'b000000
+        AND_FUNC = 6'b100100
+        ANDI_OP = 6'b001100
+        JAL_OP = 6'b000011
+        BEQ_OP = 6'b000100
+        BGEZ_OP = 6'b000001
+        BGEZ_FUNC = 6'b000001
+        BGEZAL_OP = 6'b000001
+        BGEZAL_FUNC = 6'b010001
+        BGTZ_OP = 6'b000111
+        BGTZ_FUNC = 6'b000000
+        BLEZ_OP = 6'b000110
+        BLEZ_FUNC = 6'b000000
+        BLTZ_OP = 6'b000001
+        BLTZ_FUNC = 6'b000000
+        BLTZAL_OP = 6'b000001
+        BLTZAL_FUNC = 6'b010000
+        BNE_OP = 6'b000101
+        BREAK_OP = 6'b000000
+        BREAK_FUNC = 6'b001011
+        CFC0_OP = 6'b010000
+        CFC1_OP = 6'b010001
+        CFC2_OP = 6'b010010
+        CFC3_OP = 6'b010011
+        COP0_OP = 6'b010000
+        COP1_OP = 6'b010001
+        COP2_OP = 6'b010010
+        COP3_OP = 6'b010011
+        CTC0_OP = 6'b010000
+        CTC1_OP = 6'b010001
+        CTC2_OP = 6'b010010
+        CTC3_OP = 6'b010011
+        DIV_OP = 6'b000000
+        DIV_FUNC = 6'b011010
+        DIVU_OP = 6'b000000
+        DIVU_FUNC = 6'b011011
+        J_OP = 6'b000010
+        LB_OP = 6'b100000
+        LH_OP = 6'b100001
+        LL_OP = 6'b110000
+        LWL_OP = 6'b100010
+        LW_OP = 6'b100011
+        LBU_OP = 6'b100100
+        LHU_OP = 6'b100101
+        LUI_OP = 6'b001111
+        LWR_OP = 6'b100110
+        MADD_OP = 6'b011100
+        MADD_FUNC = 6'b000000
+        MADDU_OP = 6'b011100
+        MADDU_FUNC = 6'b000001
+        MUL_OP = 6'b011100
+        MUL_FUNC = 6'b000010
+        MSUB_OP = 6'b011100
+        MSUB_FUNC = 6'b000101
+        MTC0_OP = 6'b010000
+        MTC0_FUNC = 6'b000100
+        MTC1_OP = 6'b010001
+        MTC1_FUNC = 6'b000100
+        MTC2_OP = 6'b010010
+        MTC2_FUNC = 6'b000100
+        MTC3_OP = 6'b010011
+        MTC3_FUNC = 6'b000100
+        MTHI_OP = 6'b000000
+        MTLO_OP = 6'b000000
+        MTLO_FUNC = 6'b010011
+        MULT_OP = 6'b000000
+        MULT_FUNC = 6'b011000
+        MULTU_OP = 6'b000000
+        MULTU_FUNC = 6'b011001
+        NOR_OP = 6'b000000
+        NOR_FUNC = 6'b100111
+        OR_OP = 6'b000000
+        OR_FUNC = 6'b100101
+        ORI_OP = 6'b001101
+        SB_OP = 6'b101000
+        SH_OP = 6'b101001
+        SLL_OP = 6'b000000
+        SLL_FUNC = 6'b000000
+        SLLV_OP = 6'b000000
+        SLLV_FUNC = 6'b000100
+        SLT_OP = 6'b000000
+        SLT_FUNC = 6'b101010
+        SLTI_OP = 6'b001010
+        SLTIU_OP = 6'b001011
+        SLTU_OP = 6'b000000
+        SLTU_FUNC = 6'b101011
+        SRA_OP = 6'b000000
+        SRA_FUNC = 6'b000011
+        SRAV_OP = 6'b000000
+        SRAV_FUNC = 6'b000111
+        SRL_OP = 6'b000000
+        SRL_FUNC = 6'b000010
+        SRLV_OP = 6'b000000
+        SRLV_FUNC = 6'b000110
+        SUB_OP = 6'b000000
+        SUB_FUNC = 6'b100010
+        SUBU_OP = 6'b000000
+        SUBU_FUNC = 6'b100011
+        SW_OP = 6'b101011
+        SWC0_OP = 6'b111000
+        SWC1_OP = 6'b111001
+        SWC2_OP = 6'b111010
+        SWC3_OP = 6'b111011
+        SWL_OP = 6'b101010
+        SWR_OP = 6'b101110
+        SYSCALL_OP = 6'b000000
+        SYSCALL_FUNC = 6'b001100
+        XOR_OP = 6'b000000
+        XOR_FUNC = 6'b100110
+        XORI_OP = 6'b001110
+INFO:Xst:3210 - "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ControlLogic.v" line 45: Output port <of> of the instance <i_ALU> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <ControlLogic> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ALU.v".
+        R00 = 5'b00000
+        R01 = 5'b00001
+        R02 = 5'b00010
+        R03 = 5'b00011
+        R04 = 5'b00100
+        R05 = 5'b00101
+        R06 = 5'b00110
+        R07 = 5'b00111
+        R08 = 5'b01000
+        R09 = 5'b01001
+        R10 = 5'b01010
+        R11 = 5'b01011
+        R12 = 5'b01100
+        R13 = 5'b01101
+        R14 = 5'b01110
+        R15 = 5'b01111
+        R16 = 5'b10000
+        R17 = 5'b10001
+        R18 = 5'b10010
+        R19 = 5'b10011
+        R20 = 5'b10100
+        R21 = 5'b10101
+        R22 = 5'b10110
+        R23 = 5'b10111
+        R24 = 5'b11000
+        R25 = 5'b11001
+        R26 = 5'b11010
+        R27 = 5'b11011
+        R28 = 5'b11100
+        R29 = 5'b11101
+        R30 = 5'b11110
+        R31 = 5'b11111
+        ADD_OP = 6'b000000
+        ADD_FUNC = 6'b100000
+        ADDI_OP = 6'b001000
+        ADDIU_OP = 6'b001001
+        ADDU_OP = 6'b000000
+        ADDU_FUNC = 6'b100001
+        AND_OP = 6'b000000
+        AND_FUNC = 6'b100100
+        ANDI_OP = 6'b001100
+        JAL_OP = 6'b000011
+        BEQ_OP = 6'b000100
+        BGEZ_OP = 6'b000001
+        BGEZ_FUNC = 6'b000001
+        BGEZAL_OP = 6'b000001
+        BGEZAL_FUNC = 6'b010001
+        BGTZ_OP = 6'b000111
+        BGTZ_FUNC = 6'b000000
+        BLEZ_OP = 6'b000110
+        BLEZ_FUNC = 6'b000000
+        BLTZ_OP = 6'b000001
+        BLTZ_FUNC = 6'b000000
+        BLTZAL_OP = 6'b000001
+        BLTZAL_FUNC = 6'b010000
+        BNE_OP = 6'b000101
+        BREAK_OP = 6'b000000
+        BREAK_FUNC = 6'b001011
+        CFC0_OP = 6'b010000
+        CFC1_OP = 6'b010001
+        CFC2_OP = 6'b010010
+        CFC3_OP = 6'b010011
+        COP0_OP = 6'b010000
+        COP1_OP = 6'b010001
+        COP2_OP = 6'b010010
+        COP3_OP = 6'b010011
+        CTC0_OP = 6'b010000
+        CTC1_OP = 6'b010001
+        CTC2_OP = 6'b010010
+        CTC3_OP = 6'b010011
+        DIV_OP = 6'b000000
+        DIV_FUNC = 6'b011010
+        DIVU_OP = 6'b000000
+        DIVU_FUNC = 6'b011011
+        J_OP = 6'b000010
+        LB_OP = 6'b100000
+        LH_OP = 6'b100001
+        LL_OP = 6'b110000
+        LWL_OP = 6'b100010
+        LW_OP = 6'b100011
+        LBU_OP = 6'b100100
+        LHU_OP = 6'b100101
+        LUI_OP = 6'b001111
+        LWR_OP = 6'b100110
+        MADD_OP = 6'b011100
+        MADD_FUNC = 6'b000000
+        MADDU_OP = 6'b011100
+        MADDU_FUNC = 6'b000001
+        MUL_OP = 6'b011100
+        MUL_FUNC = 6'b000010
+        MSUB_OP = 6'b011100
+        MSUB_FUNC = 6'b000101
+        MTC0_OP = 6'b010000
+        MTC0_FUNC = 6'b000100
+        MTC1_OP = 6'b010001
+        MTC1_FUNC = 6'b000100
+        MTC2_OP = 6'b010010
+        MTC2_FUNC = 6'b000100
+        MTC3_OP = 6'b010011
+        MTC3_FUNC = 6'b000100
+        MTHI_OP = 6'b000000
+        MTLO_OP = 6'b000000
+        MTLO_FUNC = 6'b010011
+        MULT_OP = 6'b000000
+        MULT_FUNC = 6'b011000
+        MULTU_OP = 6'b000000
+        MULTU_FUNC = 6'b011001
+        NOR_OP = 6'b000000
+        NOR_FUNC = 6'b100111
+        OR_OP = 6'b000000
+        OR_FUNC = 6'b100101
+        ORI_OP = 6'b001101
+        SB_OP = 6'b101000
+        SH_OP = 6'b101001
+        SLL_OP = 6'b000000
+        SLL_FUNC = 6'b000000
+        SLLV_OP = 6'b000000
+        SLLV_FUNC = 6'b000100
+        SLT_OP = 6'b000000
+        SLT_FUNC = 6'b101010
+        SLTI_OP = 6'b001010
+        SLTIU_OP = 6'b001011
+        SLTU_OP = 6'b000000
+        SLTU_FUNC = 6'b101011
+        SRA_OP = 6'b000000
+        SRA_FUNC = 6'b000011
+        SRAV_OP = 6'b000000
+        SRAV_FUNC = 6'b000111
+        SRL_OP = 6'b000000
+        SRL_FUNC = 6'b000010
+        SRLV_OP = 6'b000000
+        SRLV_FUNC = 6'b000110
+        SUB_OP = 6'b000000
+        SUB_FUNC = 6'b100010
+        SUBU_OP = 6'b000000
+        SUBU_FUNC = 6'b100011
+        SW_OP = 6'b101011
+        SWC0_OP = 6'b111000
+        SWC1_OP = 6'b111001
+        SWC2_OP = 6'b111010
+        SWC3_OP = 6'b111011
+        SWL_OP = 6'b101010
+        SWR_OP = 6'b101110
+        SYSCALL_OP = 6'b000000
+        SYSCALL_FUNC = 6'b001100
+        XOR_OP = 6'b000000
+        XOR_FUNC = 6'b100110
+        XORI_OP = 6'b001110
+    Found 33-bit subtractor for signal <GND_42_o_GND_42_o_sub_11_OUT> created at line 294.
+    Found 32-bit subtractor for signal <rs[31]_rt[31]_sub_12_OUT> created at line 301.
+    Found 33-bit shifter logical left for signal <n0059> created at line 214
+    Found 33-bit shifter logical right for signal <n0060> created at line 229
+    Found 32-bit comparator equal for signal <rs[31]_rt[31]_equal_3_o> created at line 160
+    Found 32-bit comparator greater for signal <GND_42_o_rs[31]_LessThan_5_o> created at line 179
+    Found 32-bit comparator greater for signal <rs[31]_rt[31]_LessThan_17_o> created at line 338
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <alu_add>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_add.v".
+        WORD_WIDTH = 32
+    Summary:
+	no macro.
+Unit <alu_add> synthesized.
+
+Synthesizing Unit <fa>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\fa.v".
+    Summary:
+	no macro.
+Unit <fa> synthesized.
+
+Synthesizing Unit <ha>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\ha.v".
+    Summary:
+	no macro.
+Unit <ha> synthesized.
+
+Synthesizing Unit <alu_mul>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_mul.v".
+        WORD_WIDTH = 32
+    Found 32x32-bit multiplier for signal <mul> created at line 15.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <alu_mul> synthesized.
+
+Synthesizing Unit <alu_div>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\alu_div.v".
+        WORD_WIDTH = 32
+        BLOCK_WIDTH = 4
+    Summary:
+	no macro.
+Unit <alu_div> synthesized.
+
+Synthesizing Unit <div_32u_32u>.
+    Related source file is "".
+    Found 64-bit adder for signal <n3436> created at line 0.
+    Found 64-bit adder for signal <GND_49_o_b[31]_add_1_OUT> created at line 0.
+    Found 63-bit adder for signal <n3440> created at line 0.
+    Found 63-bit adder for signal <GND_49_o_b[31]_add_3_OUT> created at line 0.
+    Found 62-bit adder for signal <n3444> created at line 0.
+    Found 62-bit adder for signal <GND_49_o_b[31]_add_5_OUT> created at line 0.
+    Found 61-bit adder for signal <n3448> created at line 0.
+    Found 61-bit adder for signal <GND_49_o_b[31]_add_7_OUT> created at line 0.
+    Found 60-bit adder for signal <n3452> created at line 0.
+    Found 60-bit adder for signal <GND_49_o_b[31]_add_9_OUT> created at line 0.
+    Found 59-bit adder for signal <n3456> created at line 0.
+    Found 59-bit adder for signal <GND_49_o_b[31]_add_11_OUT> created at line 0.
+    Found 58-bit adder for signal <n3460> created at line 0.
+    Found 58-bit adder for signal <GND_49_o_b[31]_add_13_OUT> created at line 0.
+    Found 57-bit adder for signal <n3464> created at line 0.
+    Found 57-bit adder for signal <GND_49_o_b[31]_add_15_OUT> created at line 0.
+    Found 56-bit adder for signal <n3468> created at line 0.
+    Found 56-bit adder for signal <GND_49_o_b[31]_add_17_OUT> created at line 0.
+    Found 55-bit adder for signal <n3472> created at line 0.
+    Found 55-bit adder for signal <GND_49_o_b[31]_add_19_OUT> created at line 0.
+    Found 54-bit adder for signal <n3476> created at line 0.
+    Found 54-bit adder for signal <GND_49_o_b[31]_add_21_OUT> created at line 0.
+    Found 53-bit adder for signal <n3480> created at line 0.
+    Found 53-bit adder for signal <GND_49_o_b[31]_add_23_OUT> created at line 0.
+    Found 52-bit adder for signal <n3484> created at line 0.
+    Found 52-bit adder for signal <GND_49_o_b[31]_add_25_OUT> created at line 0.
+    Found 51-bit adder for signal <n3488> created at line 0.
+    Found 51-bit adder for signal <GND_49_o_b[31]_add_27_OUT> created at line 0.
+    Found 50-bit adder for signal <n3492> created at line 0.
+    Found 50-bit adder for signal <GND_49_o_b[31]_add_29_OUT> created at line 0.
+    Found 49-bit adder for signal <n3496> created at line 0.
+    Found 49-bit adder for signal <GND_49_o_b[31]_add_31_OUT> created at line 0.
+    Found 48-bit adder for signal <n3500> created at line 0.
+    Found 48-bit adder for signal <GND_49_o_b[31]_add_33_OUT> created at line 0.
+    Found 47-bit adder for signal <n3504> created at line 0.
+    Found 47-bit adder for signal <GND_49_o_b[31]_add_35_OUT> created at line 0.
+    Found 46-bit adder for signal <n3508> created at line 0.
+    Found 46-bit adder for signal <GND_49_o_b[31]_add_37_OUT> created at line 0.
+    Found 45-bit adder for signal <n3512> created at line 0.
+    Found 45-bit adder for signal <GND_49_o_b[31]_add_39_OUT> created at line 0.
+    Found 44-bit adder for signal <n3516> created at line 0.
+    Found 44-bit adder for signal <GND_49_o_b[31]_add_41_OUT> created at line 0.
+    Found 43-bit adder for signal <n3520> created at line 0.
+    Found 43-bit adder for signal <GND_49_o_b[31]_add_43_OUT> created at line 0.
+    Found 42-bit adder for signal <n3524> created at line 0.
+    Found 42-bit adder for signal <GND_49_o_b[31]_add_45_OUT> created at line 0.
+    Found 41-bit adder for signal <n3528> created at line 0.
+    Found 41-bit adder for signal <GND_49_o_b[31]_add_47_OUT> created at line 0.
+    Found 40-bit adder for signal <n3532> created at line 0.
+    Found 40-bit adder for signal <GND_49_o_b[31]_add_49_OUT> created at line 0.
+    Found 39-bit adder for signal <n3536> created at line 0.
+    Found 39-bit adder for signal <GND_49_o_b[31]_add_51_OUT> created at line 0.
+    Found 38-bit adder for signal <n3540> created at line 0.
+    Found 38-bit adder for signal <GND_49_o_b[31]_add_53_OUT> created at line 0.
+    Found 37-bit adder for signal <n3544> created at line 0.
+    Found 37-bit adder for signal <GND_49_o_b[31]_add_55_OUT> created at line 0.
+    Found 36-bit adder for signal <n3548> created at line 0.
+    Found 36-bit adder for signal <GND_49_o_b[31]_add_57_OUT> created at line 0.
+    Found 35-bit adder for signal <n3552> created at line 0.
+    Found 35-bit adder for signal <GND_49_o_b[31]_add_59_OUT> created at line 0.
+    Found 34-bit adder for signal <n3556> created at line 0.
+    Found 34-bit adder for signal <GND_49_o_b[31]_add_61_OUT> created at line 0.
+    Found 33-bit adder for signal <n3560> created at line 0.
+    Found 33-bit adder for signal <GND_49_o_b[31]_add_63_OUT> created at line 0.
+    Found 64-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 63-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 62-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 61-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 60-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 59-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 58-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 57-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 56-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 55-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 54-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 53-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 52-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 51-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 50-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 49-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 48-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Found 47-bit comparator lessequal for signal <BUS_0018> created at line 0
+    Found 46-bit comparator lessequal for signal <BUS_0019> created at line 0
+    Found 45-bit comparator lessequal for signal <BUS_0020> created at line 0
+    Found 44-bit comparator lessequal for signal <BUS_0021> created at line 0
+    Found 43-bit comparator lessequal for signal <BUS_0022> created at line 0
+    Found 42-bit comparator lessequal for signal <BUS_0023> created at line 0
+    Found 41-bit comparator lessequal for signal <BUS_0024> created at line 0
+    Found 40-bit comparator lessequal for signal <BUS_0025> created at line 0
+    Found 39-bit comparator lessequal for signal <BUS_0026> created at line 0
+    Found 38-bit comparator lessequal for signal <BUS_0027> created at line 0
+    Found 37-bit comparator lessequal for signal <BUS_0028> created at line 0
+    Found 36-bit comparator lessequal for signal <BUS_0029> created at line 0
+    Found 35-bit comparator lessequal for signal <BUS_0030> created at line 0
+    Found 34-bit comparator lessequal for signal <BUS_0031> created at line 0
+    Found 33-bit comparator lessequal for signal <BUS_0032> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0033> created at line 0
+    Summary:
+	inferred  64 Adder/Subtractor(s).
+	inferred  33 Comparator(s).
+	inferred 993 Multiplexer(s).
+Unit <div_32u_32u> synthesized.
+
+Synthesizing Unit <InstructionDecoder>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\IntructionDecoder.v".
+        R00 = 5'b00000
+        R01 = 5'b00001
+        R02 = 5'b00010
+        R03 = 5'b00011
+        R04 = 5'b00100
+        R05 = 5'b00101
+        R06 = 5'b00110
+        R07 = 5'b00111
+        R08 = 5'b01000
+        R09 = 5'b01001
+        R10 = 5'b01010
+        R11 = 5'b01011
+        R12 = 5'b01100
+        R13 = 5'b01101
+        R14 = 5'b01110
+        R15 = 5'b01111
+        R16 = 5'b10000
+        R17 = 5'b10001
+        R18 = 5'b10010
+        R19 = 5'b10011
+        R20 = 5'b10100
+        R21 = 5'b10101
+        R22 = 5'b10110
+        R23 = 5'b10111
+        R24 = 5'b11000
+        R25 = 5'b11001
+        R26 = 5'b11010
+        R27 = 5'b11011
+        R28 = 5'b11100
+        R29 = 5'b11101
+        R30 = 5'b11110
+        R31 = 5'b11111
+        ADD_OP = 6'b000000
+        ADD_FUNC = 6'b100000
+        ADDI_OP = 6'b001000
+        ADDIU_OP = 6'b001001
+        ADDU_OP = 6'b000000
+        ADDU_FUNC = 6'b100001
+        AND_OP = 6'b000000
+        AND_FUNC = 6'b100100
+        ANDI_OP = 6'b001100
+        JAL_OP = 6'b000011
+        BEQ_OP = 6'b000100
+        BGEZ_OP = 6'b000001
+        BGEZ_FUNC = 6'b000001
+        BGEZAL_OP = 6'b000001
+        BGEZAL_FUNC = 6'b010001
+        BGTZ_OP = 6'b000111
+        BGTZ_FUNC = 6'b000000
+        BLEZ_OP = 6'b000110
+        BLEZ_FUNC = 6'b000000
+        BLTZ_OP = 6'b000001
+        BLTZ_FUNC = 6'b000000
+        BLTZAL_OP = 6'b000001
+        BLTZAL_FUNC = 6'b010000
+        BNE_OP = 6'b000101
+        BREAK_OP = 6'b000000
+        BREAK_FUNC = 6'b001011
+        CFC0_OP = 6'b010000
+        CFC1_OP = 6'b010001
+        CFC2_OP = 6'b010010
+        CFC3_OP = 6'b010011
+        COP0_OP = 6'b010000
+        COP1_OP = 6'b010001
+        COP2_OP = 6'b010010
+        COP3_OP = 6'b010011
+        CTC0_OP = 6'b010000
+        CTC1_OP = 6'b010001
+        CTC2_OP = 6'b010010
+        CTC3_OP = 6'b010011
+        DIV_OP = 6'b000000
+        DIV_FUNC = 6'b011010
+        DIVU_OP = 6'b000000
+        DIVU_FUNC = 6'b011011
+        J_OP = 6'b000010
+        LB_OP = 6'b100000
+        LH_OP = 6'b100001
+        LL_OP = 6'b110000
+        LWL_OP = 6'b100010
+        LW_OP = 6'b100011
+        LBU_OP = 6'b100100
+        LHU_OP = 6'b100101
+        LUI_OP = 6'b001111
+        LWR_OP = 6'b100110
+        MADD_OP = 6'b011100
+        MADD_FUNC = 6'b000000
+        MADDU_OP = 6'b011100
+        MADDU_FUNC = 6'b000001
+        MUL_OP = 6'b011100
+        MUL_FUNC = 6'b000010
+        MSUB_OP = 6'b011100
+        MSUB_FUNC = 6'b000101
+        MTC0_OP = 6'b010000
+        MTC0_FUNC = 6'b000100
+        MTC1_OP = 6'b010001
+        MTC1_FUNC = 6'b000100
+        MTC2_OP = 6'b010010
+        MTC2_FUNC = 6'b000100
+        MTC3_OP = 6'b010011
+        MTC3_FUNC = 6'b000100
+        MTHI_OP = 6'b000000
+        MTLO_OP = 6'b000000
+        MTLO_FUNC = 6'b010011
+        MULT_OP = 6'b000000
+        MULT_FUNC = 6'b011000
+        MULTU_OP = 6'b000000
+        MULTU_FUNC = 6'b011001
+        NOR_OP = 6'b000000
+        NOR_FUNC = 6'b100111
+        OR_OP = 6'b000000
+        OR_FUNC = 6'b100101
+        ORI_OP = 6'b001101
+        SB_OP = 6'b101000
+        SH_OP = 6'b101001
+        SLL_OP = 6'b000000
+        SLL_FUNC = 6'b000000
+        SLLV_OP = 6'b000000
+        SLLV_FUNC = 6'b000100
+        SLT_OP = 6'b000000
+        SLT_FUNC = 6'b101010
+        SLTI_OP = 6'b001010
+        SLTIU_OP = 6'b001011
+        SLTU_OP = 6'b000000
+        SLTU_FUNC = 6'b101011
+        SRA_OP = 6'b000000
+        SRA_FUNC = 6'b000011
+        SRAV_OP = 6'b000000
+        SRAV_FUNC = 6'b000111
+        SRL_OP = 6'b000000
+        SRL_FUNC = 6'b000010
+        SRLV_OP = 6'b000000
+        SRLV_FUNC = 6'b000110
+        SUB_OP = 6'b000000
+        SUB_FUNC = 6'b100010
+        SUBU_OP = 6'b000000
+        SUBU_FUNC = 6'b100011
+        SW_OP = 6'b101011
+        SWC0_OP = 6'b111000
+        SWC1_OP = 6'b111001
+        SWC2_OP = 6'b111010
+        SWC3_OP = 6'b111011
+        SWL_OP = 6'b101010
+        SWR_OP = 6'b101110
+        SYSCALL_OP = 6'b000000
+        SYSCALL_FUNC = 6'b001100
+        XOR_OP = 6'b000000
+        XOR_FUNC = 6'b100110
+        XORI_OP = 6'b001110
+WARNING:Xst:647 - Input <instruction<15:11>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <instruction<25:21>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <InstructionDecoder> synthesized.
+
+Synthesizing Unit <PCSel>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\CPU\PCSel.v".
+        R00 = 5'b00000
+        R01 = 5'b00001
+        R02 = 5'b00010
+        R03 = 5'b00011
+        R04 = 5'b00100
+        R05 = 5'b00101
+        R06 = 5'b00110
+        R07 = 5'b00111
+        R08 = 5'b01000
+        R09 = 5'b01001
+        R10 = 5'b01010
+        R11 = 5'b01011
+        R12 = 5'b01100
+        R13 = 5'b01101
+        R14 = 5'b01110
+        R15 = 5'b01111
+        R16 = 5'b10000
+        R17 = 5'b10001
+        R18 = 5'b10010
+        R19 = 5'b10011
+        R20 = 5'b10100
+        R21 = 5'b10101
+        R22 = 5'b10110
+        R23 = 5'b10111
+        R24 = 5'b11000
+        R25 = 5'b11001
+        R26 = 5'b11010
+        R27 = 5'b11011
+        R28 = 5'b11100
+        R29 = 5'b11101
+        R30 = 5'b11110
+        R31 = 5'b11111
+        ADD_OP = 6'b000000
+        ADD_FUNC = 6'b100000
+        ADDI_OP = 6'b001000
+        ADDIU_OP = 6'b001001
+        ADDU_OP = 6'b000000
+        ADDU_FUNC = 6'b100001
+        AND_OP = 6'b000000
+        AND_FUNC = 6'b100100
+        ANDI_OP = 6'b001100
+        JAL_OP = 6'b000011
+        BEQ_OP = 6'b000100
+        BGEZ_OP = 6'b000001
+        BGEZ_FUNC = 6'b000001
+        BGEZAL_OP = 6'b000001
+        BGEZAL_FUNC = 6'b010001
+        BGTZ_OP = 6'b000111
+        BGTZ_FUNC = 6'b000000
+        BLEZ_OP = 6'b000110
+        BLEZ_FUNC = 6'b000000
+        BLTZ_OP = 6'b000001
+        BLTZ_FUNC = 6'b000000
+        BLTZAL_OP = 6'b000001
+        BLTZAL_FUNC = 6'b010000
+        BNE_OP = 6'b000101
+        BREAK_OP = 6'b000000
+        BREAK_FUNC = 6'b001011
+        CFC0_OP = 6'b010000
+        CFC1_OP = 6'b010001
+        CFC2_OP = 6'b010010
+        CFC3_OP = 6'b010011
+        COP0_OP = 6'b010000
+        COP1_OP = 6'b010001
+        COP2_OP = 6'b010010
+        COP3_OP = 6'b010011
+        CTC0_OP = 6'b010000
+        CTC1_OP = 6'b010001
+        CTC2_OP = 6'b010010
+        CTC3_OP = 6'b010011
+        DIV_OP = 6'b000000
+        DIV_FUNC = 6'b011010
+        DIVU_OP = 6'b000000
+        DIVU_FUNC = 6'b011011
+        J_OP = 6'b000010
+        LB_OP = 6'b100000
+        LH_OP = 6'b100001
+        LL_OP = 6'b110000
+        LWL_OP = 6'b100010
+        LW_OP = 6'b100011
+        LBU_OP = 6'b100100
+        LHU_OP = 6'b100101
+        LUI_OP = 6'b001111
+        LWR_OP = 6'b100110
+        MADD_OP = 6'b011100
+        MADD_FUNC = 6'b000000
+        MADDU_OP = 6'b011100
+        MADDU_FUNC = 6'b000001
+        MUL_OP = 6'b011100
+        MUL_FUNC = 6'b000010
+        MSUB_OP = 6'b011100
+        MSUB_FUNC = 6'b000101
+        MTC0_OP = 6'b010000
+        MTC0_FUNC = 6'b000100
+        MTC1_OP = 6'b010001
+        MTC1_FUNC = 6'b000100
+        MTC2_OP = 6'b010010
+        MTC2_FUNC = 6'b000100
+        MTC3_OP = 6'b010011
+        MTC3_FUNC = 6'b000100
+        MTHI_OP = 6'b000000
+        MTLO_OP = 6'b000000
+        MTLO_FUNC = 6'b010011
+        MULT_OP = 6'b000000
+        MULT_FUNC = 6'b011000
+        MULTU_OP = 6'b000000
+        MULTU_FUNC = 6'b011001
+        NOR_OP = 6'b000000
+        NOR_FUNC = 6'b100111
+        OR_OP = 6'b000000
+        OR_FUNC = 6'b100101
+        ORI_OP = 6'b001101
+        SB_OP = 6'b101000
+        SH_OP = 6'b101001
+        SLL_OP = 6'b000000
+        SLL_FUNC = 6'b000000
+        SLLV_OP = 6'b000000
+        SLLV_FUNC = 6'b000100
+        SLT_OP = 6'b000000
+        SLT_FUNC = 6'b101010
+        SLTI_OP = 6'b001010
+        SLTIU_OP = 6'b001011
+        SLTU_OP = 6'b000000
+        SLTU_FUNC = 6'b101011
+        SRA_OP = 6'b000000
+        SRA_FUNC = 6'b000011
+        SRAV_OP = 6'b000000
+        SRAV_FUNC = 6'b000111
+        SRL_OP = 6'b000000
+        SRL_FUNC = 6'b000010
+        SRLV_OP = 6'b000000
+        SRLV_FUNC = 6'b000110
+        SUB_OP = 6'b000000
+        SUB_FUNC = 6'b100010
+        SUBU_OP = 6'b000000
+        SUBU_FUNC = 6'b100011
+        SW_OP = 6'b101011
+        SWC0_OP = 6'b111000
+        SWC1_OP = 6'b111001
+        SWC2_OP = 6'b111010
+        SWC3_OP = 6'b111011
+        SWL_OP = 6'b101010
+        SWR_OP = 6'b101110
+        SYSCALL_OP = 6'b000000
+        SYSCALL_FUNC = 6'b001100
+        XOR_OP = 6'b000000
+        XOR_FUNC = 6'b100110
+        XORI_OP = 6'b001110
+WARNING:Xst:647 - Input <Instruction<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit adder for signal <pcInc> created at line 24.
+    Found 33-bit adder for signal <n0013> created at line 27.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <PCSel> synthesized.
+
+Synthesizing Unit <memory_interface>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\MIF\memory_interface.vhd".
+        addr_width = 26
+        data_width = 16
+WARNING:Xst:647 - Input <wait_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 14-bit register for signal <cnt>.
+    Found 26-bit register for signal <currCRAMaddr_s>.
+    Found 1-bit register for signal <currCRAMadv_s>.
+    Found 1-bit register for signal <currCRAMce_s>.
+    Found 1-bit register for signal <currCRAMlb_s>.
+    Found 1-bit register for signal <currCRAMub_s>.
+    Found 1-bit register for signal <currCRAMoe_s>.
+    Found 1-bit register for signal <currCRAMwe_s>.
+    Found 1-bit register for signal <currCRAMwrite2dq_s>.
+    Found 16-bit register for signal <curr_data_o_s>.
+    Found 4-bit register for signal <curr_st>.
+    Found finite state machine <FSM_0> for signal <curr_st>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk_i (rising_edge)                            |
+    | Power Up State     | init                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 14-bit adder for signal <cnt[13]_GND_54_o_add_25_OUT> created at line 177.
+    Found 1-bit tristate buffer for signal <data_io<15>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<14>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<13>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<12>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<11>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<10>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<9>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<8>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<7>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<6>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<5>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<4>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<3>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<2>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<1>> created at line 69
+    Found 1-bit tristate buffer for signal <data_io<0>> created at line 69
+    Found 14-bit comparator greater for signal <n0036> created at line 109
+    Found 14-bit comparator greater for signal <n0045> created at line 145
+    Found 14-bit comparator greater for signal <n0049> created at line 153
+    Found 14-bit comparator greater for signal <n0055> created at line 173
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  63 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  25 Multiplexer(s).
+	inferred  16 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <memory_interface> synthesized.
+
+Synthesizing Unit <Seven_Segment_Display>.
+    Related source file is "C:\Users\HpGaming\Dropbox\CSE 320\CSE320 LAB FINAL\CPU\RTL\SEG\Seven_Segment_Display.v".
+        CLOCKFREQ = 100
+        DIGITS = 4
+    Found 2-bit register for signal <DigitNo>.
+    Found 11-bit register for signal <refreshCnt>.
+    Found 11-bit adder for signal <refreshCnt[10]_GND_71_o_add_6_OUT> created at line 99.
+    Found 3-bit adder for signal <_n0041> created at line 104.
+    Found 16x7-bit Read Only RAM for signal <HexDigit>
+    Found 1-bit 4-to-1 multiplexer for signal <Digit<3>> created at line 63.
+    Found 1-bit 4-to-1 multiplexer for signal <Digit<2>> created at line 63.
+    Found 1-bit 4-to-1 multiplexer for signal <Digit<1>> created at line 63.
+    Found 1-bit 4-to-1 multiplexer for signal <Digit<0>> created at line 63.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  13 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <Seven_Segment_Display> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port Read Only RAM                    : 1
+ 64x11-bit single-port Read Only RAM                   : 1
+# Multipliers                                          : 1
+ 32x32-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 71
+ 11-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+ 33-bit adder                                          : 3
+ 33-bit subtractor                                     : 1
+ 34-bit adder                                          : 2
+ 35-bit adder                                          : 2
+ 36-bit adder                                          : 2
+ 37-bit adder                                          : 2
+ 38-bit adder                                          : 2
+ 39-bit adder                                          : 2
+ 40-bit adder                                          : 2
+ 41-bit adder                                          : 2
+ 42-bit adder                                          : 2
+ 43-bit adder                                          : 2
+ 44-bit adder                                          : 2
+ 45-bit adder                                          : 2
+ 46-bit adder                                          : 2
+ 47-bit adder                                          : 2
+ 48-bit adder                                          : 2
+ 49-bit adder                                          : 2
+ 50-bit adder                                          : 2
+ 51-bit adder                                          : 2
+ 52-bit adder                                          : 2
+ 53-bit adder                                          : 2
+ 54-bit adder                                          : 2
+ 55-bit adder                                          : 2
+ 56-bit adder                                          : 2
+ 57-bit adder                                          : 2
+ 58-bit adder                                          : 2
+ 59-bit adder                                          : 2
+ 60-bit adder                                          : 2
+ 61-bit adder                                          : 2
+ 62-bit adder                                          : 2
+ 63-bit adder                                          : 2
+ 64-bit adder                                          : 2
+# Registers                                            : 24
+ 1-bit register                                        : 16
+ 1024-bit register                                     : 1
+ 11-bit register                                       : 1
+ 14-bit register                                       : 1
+ 16-bit register                                       : 1
+ 2-bit register                                        : 1
+ 26-bit register                                       : 1
+ 32-bit register                                       : 1
+ 32768-bit register                                    : 1
+# Latches                                              : 27
+ 1-bit latch                                           : 27
+# Comparators                                          : 41
+ 14-bit comparator greater                             : 4
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 2
+ 32-bit comparator lessequal                           : 2
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 52-bit comparator lessequal                           : 1
+ 53-bit comparator lessequal                           : 1
+ 54-bit comparator lessequal                           : 1
+ 55-bit comparator lessequal                           : 1
+ 56-bit comparator lessequal                           : 1
+ 57-bit comparator lessequal                           : 1
+ 58-bit comparator lessequal                           : 1
+ 59-bit comparator lessequal                           : 1
+ 60-bit comparator lessequal                           : 1
+ 61-bit comparator lessequal                           : 1
+ 62-bit comparator lessequal                           : 1
+ 63-bit comparator lessequal                           : 1
+ 64-bit comparator lessequal                           : 1
+# Multiplexers                                         : 2119
+ 1-bit 2-to-1 multiplexer                              : 1037
+ 1-bit 4-to-1 multiplexer                              : 4
+ 14-bit 2-to-1 multiplexer                             : 9
+ 16-bit 2-to-1 multiplexer                             : 2
+ 26-bit 2-to-1 multiplexer                             : 2
+ 32-bit 1024-to-1 multiplexer                          : 1
+ 32-bit 2-to-1 multiplexer                             : 1060
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 33-bit shifter logical left                           : 1
+ 33-bit shifter logical right                          : 1
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Seven_Segment_Display>.
+The following registers are absorbed into counter <refreshCnt>: 1 register on signal <refreshCnt>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_HexDigit> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Digit>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <HexDigit>      |          |
+    -----------------------------------------------------------------------
+Unit <Seven_Segment_Display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <instMem>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n2863> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 11-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <read_addr<5:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <instMem> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 64x11-bit single-port distributed Read Only RAM       : 1
+# Multipliers                                          : 1
+ 32x32-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 38
+ 14-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 2
+ 32-bit adder carry in                                 : 32
+ 32-bit subtractor                                     : 1
+ 33-bit subtractor                                     : 1
+# Counters                                             : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 33898
+ Flip-Flops                                            : 33898
+# Comparators                                          : 41
+ 14-bit comparator greater                             : 4
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 2
+ 32-bit comparator lessequal                           : 2
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 52-bit comparator lessequal                           : 1
+ 53-bit comparator lessequal                           : 1
+ 54-bit comparator lessequal                           : 1
+ 55-bit comparator lessequal                           : 1
+ 56-bit comparator lessequal                           : 1
+ 57-bit comparator lessequal                           : 1
+ 58-bit comparator lessequal                           : 1
+ 59-bit comparator lessequal                           : 1
+ 60-bit comparator lessequal                           : 1
+ 61-bit comparator lessequal                           : 1
+ 62-bit comparator lessequal                           : 1
+ 63-bit comparator lessequal                           : 1
+ 64-bit comparator lessequal                           : 1
+# Multiplexers                                         : 33894
+ 1-bit 1024-to-1 multiplexer                           : 32
+ 1-bit 2-to-1 multiplexer                              : 33805
+ 1-bit 4-to-1 multiplexer                              : 4
+ 14-bit 2-to-1 multiplexer                             : 9
+ 16-bit 2-to-1 multiplexer                             : 2
+ 26-bit 2-to-1 multiplexer                             : 2
+ 32-bit 2-to-1 multiplexer                             : 36
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 33-bit shifter logical left                           : 1
+ 33-bit shifter logical right                          : 1
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <mif/FSM_0> on signal <curr_st[1:4]> with user encoding.
+----------------------------
+ State          | Encoding
+----------------------------
+ init           | 0000
+ idle           | 0001
+ read_ce_high   | 0010
+ read_pre       | 0011
+ read_oe_low    | 0100
+ read_get_data  | 0101
+ write_pre      | 0110
+ write_we_low   | 0111
+ write_set_data | 1000
+----------------------------
+INFO:Xst:2261 - The FF/Latch <currCRAMlb_s> in Unit <memory_interface> is equivalent to the following FF/Latch, which will be removed : <currCRAMub_s> 
+
+Optimizing unit <alu_add> ...
+
+Optimizing unit <alu_mul> ...
+
+Optimizing unit <alu_div> ...
+
+Optimizing unit <fpga_top> ...
+
+Optimizing unit <scu> ...
+
+Optimizing unit <mips_sc_top> ...
+
+Optimizing unit <SequentialLogic> ...
+
+Optimizing unit <registerFile> ...
+
+Optimizing unit <dataMem> ...
+
+Optimizing unit <instMem> ...
+
+Optimizing unit <ControlLogic> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <fa> ...
+
+Optimizing unit <ha> ...
+
+Optimizing unit <div_32u_32u> ...
+
+Optimizing unit <InstructionDecoder> ...
+
+Optimizing unit <PCSel> ...
+
+Optimizing unit <memory_interface> ...
+
+Optimizing unit <Seven_Segment_Display> ...
+WARNING:Xst:2677 - Node <programCounter_o_0> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_1> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_12> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_13> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_14> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_15> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_16> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_17> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_18> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_19> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_20> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_21> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_22> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_23> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_24> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_25> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_26> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_27> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_28> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_29> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_30> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <programCounter_o_31> of sequential type is unconnected in block <sl>.
+WARNING:Xst:2677 - Node <Mmult_mul3> of sequential type is unconnected in block <i_alu_mul>.
+WARNING:Xst:2677 - Node <curr_data_o_s_0> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_1> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_2> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_3> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_4> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_5> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_6> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_7> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_8> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_9> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_10> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_11> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_12> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_13> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_14> of sequential type is unconnected in block <mif>.
+WARNING:Xst:2677 - Node <curr_data_o_s_15> of sequential type is unconnected in block <mif>.
+WARNING:Xst:1710 - FF/Latch <memory_0_31> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_30> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_29> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_28> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_27> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_26> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_25> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_24> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_23> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_22> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_21> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_20> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_19> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_18> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_17> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_16> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_15> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_14> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_13> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_12> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_11> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_10> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_9> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_8> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_7> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_6> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_5> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_4> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_3> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_2> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_1> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <memory_0_0> (without init value) has a constant value of 0 in block <i_registerFile>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <currCRAMwrite2dq_s> in Unit <mif> is equivalent to the following FF/Latch, which will be removed : <curr_st_FSM_FFd1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fpga_top, actual ratio is 91.
